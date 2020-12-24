@@ -12,9 +12,9 @@ Para que seja possível fazer as consultas nesta api, deve-se executar os seguin
     1.3 No topo da página deve ser possível ver um link que fala sobre API, clique nele!
     1.4 preencha as informações e no e-mail receberá a chave de autenticação. 
 
-[Página de login]: http://www.ctabustracker.com/bustime/login.jsp
+[Pagina de login](http://www.ctabustracker.com/bustime/login.jsp)
 
-[Documento PDF]: https://www.transitchicago.com/assets/1/6/cta_Bus_Tracker_API_Developer_Guide_and_Documentation_20160929.pdf
+[Documento PDF](https://www.transitchicago.com/assets/1/6/cta_Bus_Tracker_API_Developer_Guide_and_Documentation_20160929.pdf)
 
 1. Quais  tipos de dados podem ser obtidos dessa fonte em específico? Verifique a documentação da API e os termos de serviço e mostre alguns exemplos.
 
@@ -25,14 +25,15 @@ Para que seja possível fazer as consultas nesta api, deve-se executar os seguin
 * Serviço de boletins que são basicamente alertas.
 
 ## Exemplos
+
 #### Capturando informações de predição de quando um próximo ônibus irá passar naquela parada
-<img src="./src/assets/api-examples/getprediction.png"/>
+![](client/src/assets/api-examples/getprediction.png)
 
 #### Capturando informações de quais direções o ônibus vai a partir de uma rota específica
-<img src="./src/assets/api-examples/getdirections.png"/>
+![](client/src/assets/api-examples/getdirections.png)
 
 #### Capturando informações de quais ônibus passam por uma rota específica
-<img src="./src/assets/api-examples/getvehicles.png"/>
+![](client/srcassets/api-examples/getvehicles.png)
 
 2. Explique o funcionamento da API escolhida e mostre o formato de retorno dos dados (XML? JSON? CSV?) - caso tenha mais de uma formato escolha um.
 
@@ -40,4 +41,4 @@ Bom, está api é bem completa no quesito informação, assumindo que esteja apt
 são em formato XML e JSON, sendo o padrão XML e caso você queira em JSON, basta informar na URL (&format=JSON).
 
 #### Exemplo de resposta em XML
-<img src="./src/assets/api-examples/getvehicles.png"/>
+![](client/src/assets/api-examples/getvehicles_xml.png)
